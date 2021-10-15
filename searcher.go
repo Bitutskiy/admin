@@ -486,7 +486,7 @@ func filterResourceByFields(res *Resource, filterFields []filterField, keyword s
 							conditions = append(conditions, fmt.Sprintf("%v.%v in (?)", tableName, scope.Quote(field.DBName)))
 							keywords = append(keywords, keywordEx)
 						} else {
-							conditions = append(conditions, fmt.Sprintf("%v.%v = ?", tableName, scope.Quote(field.DBName)))
+							conditions = append(conditions, fmt.Sprintf("%v.%v::text = ?", tableName, scope.Quote(field.DBName)))
 							keywords = append(keywords, keyword)
 						}
 					}
