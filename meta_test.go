@@ -4,9 +4,9 @@ import (
 	"reflect"
 	"testing"
 
-	. "github.com/qor/admin/tests/dummy"
+	. "github.com/Bitutskiy/admin/tests/dummy"
 
-	"github.com/qor/admin"
+	"github.com/Bitutskiy/admin"
 	"github.com/qor/qor"
 	"github.com/qor/qor/resource"
 )

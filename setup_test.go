@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/jinzhu/gorm"
-	"github.com/qor/admin"
-	. "github.com/qor/admin/tests/dummy"
+	"github.com/Bitutskiy/admin"
+	. "github.com/Bitutskiy/admin/tests/dummy"
 )
 
 var (

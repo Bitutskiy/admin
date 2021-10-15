@@ -3,7 +3,7 @@ package dummy
 import (
 	"fmt"
 
-	"github.com/qor/admin"
+	"github.com/Bitutskiy/admin"
 	"github.com/qor/media"
 	"github.com/qor/qor"
 	"github.com/qor/qor/test/utils"

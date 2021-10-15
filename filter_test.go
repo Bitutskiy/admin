@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/qor/admin"
-	. "github.com/qor/admin/tests/dummy"
+	"github.com/Bitutskiy/admin"
+	. "github.com/Bitutskiy/admin/tests/dummy"
 	qorTestUtils "github.com/qor/qor/test/utils"
 )
 

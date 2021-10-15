@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/qor/admin"
-	. "github.com/qor/admin/tests/dummy"
+	"github.com/Bitutskiy/admin"
+	. "github.com/Bitutskiy/admin/tests/dummy"
 	"github.com/qor/qor"
 	"github.com/qor/roles"
 )
